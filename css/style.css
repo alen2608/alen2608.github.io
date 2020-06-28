@@ -20,7 +20,7 @@ body {
   display: block;
   height: 50px;
 }
-img {
+.wp img {
   max-width: 50%;
   height: auto;
 }
