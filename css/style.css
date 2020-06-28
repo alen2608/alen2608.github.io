@@ -14,9 +14,22 @@ body {
   text-align: center;
   background-color: #fedfe1;
 }
+
+:target:before {
+  content: "";
+  display: block;
+  height: 50px;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
 table {
   margin-left: auto;
   margin-right: auto;
+}
+.js {
+  height: 30rem;
 }
 .textbox {
   text-align: center;
